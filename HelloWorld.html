@@ -1,0 +1,77 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    body{
+       margin:0px;
+       margin-top:60px;
+       padding: 0px;
+    }
+    nav{
+       position: fixed;
+       top: -50px;
+       width: 100%;
+       background-color: rgb(39, 39, 39);
+       overflow: auto;
+       height: auto;
+       transition: 0.5s;
+    }
+    .links {
+       display: inline-block;
+       text-align: center;
+       padding: 14px;
+       color: rgb(178, 137, 253);
+       text-decoration: none;
+       font-size: 17px;
+    }
+    .links:hover {
+       background-color: rgb(100, 100, 100);
+    }
+    .selected{
+       background-color: rgb(0, 18, 43);
+    }
+    .sample-content{
+       height: 150vh;
+    }
+    </style>
+    </head>
+    <body style="background-color: aquamarine;">
+       
+    <nav>
+    <a class="links selected" href="MUSIC.HTML">Music Choice!</a>
+    <a class="links" href="HOBBIES.html">Hobbies </a>
+    <a class="links" href="trololol1.html">I totally do </a>
+    <a class="links" href="trololol2.html">not have enough </a>
+    <a class="links" href="trololol3.html">headers to fill.</a>
+    <a class="links" href="www.Amazon.com">Shop.</a>
+    </nav>
+<h1>Hello World!!</h1>
+<p>Just keep scrolling for a photo roll of my hometown!</p>
+<img src="GrandRapidsview.jpg"> 
+<p> This is where I live Grand Rapids Michigan!!</p>
+<img src="Beach.jpg">
+<p> You would not think that michigan actually has a 
+    killer beach scene but it's probably the main summer attraction..
+     <a href="https://www.michigan.org/property/grand-haven-state-park">PureMichigan</a></href></p>
+
+    <img src="Dunes_Aerial_6ee223bb-5601-47c5-8bd4-e34a5001ea6f.jpg">
+    <p>This is Sleeping Bear Dunes extremely cool to hike, backpack or camp</p>
+ <img src="Beer.jpg">
+ <img src="Beer 2.jpg">
+ <p>We have maintained the title of Beer City USA for roughly a decade or longer</p>
+ <img src="Van ANdel.jpg">
+ <p>And with extra supwerpowered beer comes basically every artist. We do not get missed on tours.... only if COVID could end........</p>
+ <script>
+        window.onscroll = scrollShowNav;
+        function scrollShowNav() {
+           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+              document.getElementsByTagName("nav")[0].style.top = "0";
+           } else {
+              document.getElementsByTagName("nav")[0].style.top = "-50px";
+           }
+        }
+        </script>
+        </body>
+        </html>
